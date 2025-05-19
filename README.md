@@ -23,6 +23,26 @@ You can deploy this project on:
 - Netlify
 - Render.com
 - Railway.app
+Live Demo:
+## 🛠️ Tech Stack
 
+- **HTML5**
+- **CSS3** (Gradient + Responsive)
+- **JavaScript**
+
+---
+
+## 🚀 Live Demo
+
+[🔗 View Live Project](https://kavi-22.github.io/Weather-Dashboard/)
+
+---
+## 📁 Project Structure
+
+```bash
+percentage-calculator/
+├── index.html
+├── style.css
+├── script.js
 ## License
 This project is open-source and free to use.
