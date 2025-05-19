@@ -37,12 +37,17 @@ Live Demo:
 [🔗 View Live Project](https://kavi-22.github.io/Weather-Dashboard/)
 
 ---
+
+## License
+This project is open-source and free to use.
+
+---
+
 ## 📁 Project Structure
 
 ```bash
-percentage-calculator/
+Weather-dashboard/
 ├── index.html
 ├── style.css
 ├── script.js
-## License
-This project is open-source and free to use.
+
