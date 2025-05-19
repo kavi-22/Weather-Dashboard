@@ -9,7 +9,7 @@ async function getWeather() {
         alert('You are offline. Please check your internet connection.');
         return;
     }
-    
+     
     const city = document.getElementById('cityInput').value;
     if (!city) {
         alert('Please enter a city name.');
