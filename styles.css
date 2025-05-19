@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('assets/default light.jpg') no-repeat center center fixed;
+    background-size: cover;
+    transition: background 0.5s ease-in-out;
+}
+
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3); /* Transparent background */
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+}
+
+body.dark-mode .container {
+    background: rgba(33, 37, 41, 0.6);
+}
+
+.dark-mode {
+    background-image: url('assets/home dark.jpg');
+    color: white;
+}
+
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#weatherResult {
+    margin-top: 20px;
+}
